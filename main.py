@@ -594,7 +594,6 @@ print("This app is in Pre-Alpha and not ready for use yet.")
 print("Only some commands work as of now.")
 print("\nFor the command 'echo', varibles do not work. (To check varible contents use the command 'echovar')")
 print("For a list of commands that are supported, use the command 'help'")
-print('try start command on linux')
 if message != "Disabled":
 	print(message)
 while True:
@@ -631,19 +630,15 @@ while True:
 	elif code == "help":
 		cls()
 		help()
-		print("\n")
 	elif code == "help/inputs":
 		cls()
 		helpi()
-		print("\n")
 	elif code == "help/dev":
 		cls()
 		helpdev()
-		print("\n")
 	elif code == "help/debug":
 		cls()
 		helpdebug()
-		print("\n")
 	elif code[0:2] == "cd":
 		cd(code[2:])
 	elif code[0:6] == "delvar":
