@@ -1,3 +1,13 @@
+# PythonPrompt files
+*.log
+*.pyc
+*.apk
+*.md
+lversion.txt
+modules/config/logs/debug.log
+modules/config/logs/debug_s.log
+modules/config/exc.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
