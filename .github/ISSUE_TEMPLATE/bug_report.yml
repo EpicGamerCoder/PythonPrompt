@@ -1,0 +1,53 @@
+name: Bug Report
+description: Create a bug report to help improve Files
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '....'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See the error
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear description of what you expected to happen.
+    validations:
+      required: true
+  - type: input
+    id: pythonprompt-version
+    attributes:
+      label: PythonPrompt Version
+      description: Which version of PythonPrompt are you using?
+      placeholder: Pre-Alpha 1.0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Windows / Android Version
+      description: Which version of Windows / Android are you using?
+      placeholder: e.g. Windows 11 21H2 22000.282 / Andoird 5.5
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Relevant Assets
+      description: |
+        A list of assets (logs, screenshots, etc) relevant to this bug.
+
+        Tip: You can attach image(s) or log file(s) by clicking this area to highlight it and then dragging files in.
+      placeholder: |
+        To upload the log, access it from Settings -> About -> Open log location; Or
+        - Copy the `debug.log` and `debug_s.log` files from `[install dir]\modules\settings`
+        - Drag and drop them into this text area.
